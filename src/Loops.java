@@ -71,6 +71,36 @@ public class Loops {
 
         }
 
+        int t = 3;
+        int m = 5;
+        if(t==m){
+            System.out.println("t = m");
+        }else if(t<m){
+            System.out.println("t < m");
+        }else{
+            System.out.println("t>m");
+        }
+
+        int o = 5;
+        int p = 7;
+        if((o+p)%2==0){
+            System.out.println("maybe o and p are even");
+        }else{
+            System.out.println("some variable is odd");
+        }
+        int q = 65;
+        if(q > 10){
+            System.out.println("the variable greater than 10");
+        }else if(q < 100){
+            System.out.println("the variable less than 100");
+        }else if((q/2)>20){
+            System.out.println("the result of divide greater than 20");
+        }else if((q>=5) && (q<=40)){
+            System.out.println("the variable greater than 5 and less than 40");
+        }else if((q<5) || (q>40)){
+        System.out.println("the variable greater than 40 or less than 5");
+    }
+
     }
 }
 
