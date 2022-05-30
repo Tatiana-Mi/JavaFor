@@ -15,4 +15,6 @@ public class Person {
         System.out.println(a % 2);
         System.out.println(b % 2);
     }
+
+
 }
